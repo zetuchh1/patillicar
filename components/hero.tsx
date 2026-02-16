@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Youtube } from "lucide-react"
 import { PawPrints } from "@/components/paw-prints"
 import Image from "next/image"
+import { TextAnimate } from "./ui/text-animate"
 
 export function Hero() {
   return (
@@ -19,9 +20,15 @@ export function Hero() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-black mb-6 text-balance">
-            <span className="text-foreground">Patili</span>
-            <span className="text-primary">Car</span>
-          </h1>
+            {/* <span className="text-foreground">Patili</span>
+            <span className="text-primary">Car</span> */}
+            <span className="inline-flex items-center gap-2">
+              <TextAnimate as="span" animation="slideRight" by="character" className="text-foreground">Patili</TextAnimate>
+              <TextAnimate as="span"animation="slideLeft" by="character" className="text-primary">Car</TextAnimate>
+            </span>
+
+            </h1>
+
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium max-w-2xl mx-auto leading-relaxed">
             Uzaktan kumandalı aracımızla sokak hayvanlarına mama ulaştırıyor, hayvanseverliği yaygınlaştırıyoruz

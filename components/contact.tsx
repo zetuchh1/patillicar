@@ -75,7 +75,7 @@ export function Contact() {
                 <Alert className="mb-6 bg-green-50 dark:bg-green-950 border-green-200 dark:border-green-800">
                   <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400" />
                   <AlertDescription className="text-green-800 dark:text-green-200 font-medium">
-                    Mesajınız alındı! En kısa sürede size dönüş yapacağız.
+                    Mesajınız alındı!
                   </AlertDescription>
                 </Alert>
               )}

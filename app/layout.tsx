@@ -20,22 +20,22 @@ export const metadata: Metadata = {
   keywords: "patilicar, evcil hayvan taşıma, kedi arabası, köpek taşıma, pet transport",
   openGraph: {
     title: "PatiliCar - Evcil Dostlarınızın Konforu",
-    description: "Evcil dostlarınız için güvenli ve konforlu taşıma çözümleri",
+    description: "Evcil dostlarınız için mama dağıtımı",
     type: "website",
   },
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/icon.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/icon.svg",
         media: "(prefers-color-scheme: dark)",
       },
     ],
   },
-  generator: "v0.app",
+  generator: "PatiliCar",
 }
 
 export default function RootLayout({
